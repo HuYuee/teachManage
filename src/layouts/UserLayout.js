@@ -1,3 +1,6 @@
+/*
+ * 抽离出用于登陆注册页面的通用布局
+ */
 import React, { Fragment } from 'react';
 import { Link, Redirect, Switch, Route } from 'dva/router';
 import DocumentTitle from 'react-document-title';

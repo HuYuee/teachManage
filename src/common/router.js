@@ -72,6 +72,9 @@ export const getRouterData = app => {
     '/': {
       component: dynamicWrapper(app, ['user', 'login'], () => import('../layouts/BasicLayout')),
     },
+    '/home/:arg': {
+      component: dynamicWrapper(app, [], () => import('../routes/Home')),
+    },
     '/dashboard/analysis': {
       component: dynamicWrapper(app, ['chart'], () => import('../routes/Dashboard/Analysis')),
     },
@@ -87,6 +90,7 @@ export const getRouterData = app => {
       // authority: 'admin',
     },
     '/form/basic-form': {
+      // hideInBreadcrumb: true,
       component: dynamicWrapper(app, ['form'], () => import('../routes/Forms/BasicForm')),
     },
     '/form/step-form': {

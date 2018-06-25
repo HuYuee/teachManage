@@ -1,3 +1,7 @@
+/*
+ * 基础页面布局，包含了头部导航，侧边栏和通知栏：
+ */
+
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import { Layout, Icon, message } from 'antd';

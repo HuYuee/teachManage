@@ -4,7 +4,8 @@ const menuData = [
   {
     name: '首页',
     icon: 'dashboard',
-    path: 'home'
+    path: '/home:arg',
+    hideInMenu:true
   },
   {
     name: 'dashboard',

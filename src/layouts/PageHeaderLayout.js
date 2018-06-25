@@ -1,3 +1,6 @@
+/*
+ * 带有标准 PageHeader 的布局
+ */
 import React from 'react';
 import { Link } from 'dva/router';
 import PageHeader from '../components/PageHeader';
